@@ -1,0 +1,29 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.formulas{
+    display: flex;
+    justify-content: center;
+}
+
+.formulas_text{
+    background-color: rgba(255, 131, 131, 0.932);
+    padding: 5px 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* С этим шрифтом формулы красивые, вы только поглядите какие :3 */
+    font-size: 16pt;
+}
+
+.red_text{
+    color: brown;
+    font-style: italic;
+    font-weight: bolder;
+}

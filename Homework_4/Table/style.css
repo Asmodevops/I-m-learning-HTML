@@ -1,0 +1,75 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    color: white;
+    padding: 20px;
+    font-size: 18pt;
+}
+
+td{
+    padding: 15px 30px;
+}
+
+tr td:nth-child(2), tr td:nth-child(3), tr td:nth-child(4), tr td:nth-child(5){
+    text-align: center;
+}
+
+
+th:nth-child(1){
+    background-color: rgba(66, 133, 196, 0.664);
+    border-radius: 15px 0px 0px 0px;
+}
+
+th:nth-child(2){
+    background-color: rgba(32, 95, 155, 0.664);
+}
+
+th:nth-child(3){
+    background-color: rgba(8, 65, 119, 0.795);
+}
+
+th:nth-child(4){
+    background-color: rgba(0, 64, 124, 0.904);
+}
+
+th:nth-child(5){
+    background-color: rgb(0, 46, 88);
+    border-radius: 0px 15px 0px 0px;
+}
+
+tr th div:nth-child(2){
+    padding: 20px 0px 5px 0px;
+    font-size: 30pt;
+}
+
+button{
+    padding: 7px 20px 7px 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(127, 208, 255);
+    font-weight: bold;
+}
+
+tr:nth-child(even) td:nth-child(odd){
+    background-color: rgba(128, 128, 128, 0.377);
+}
+
+tr:nth-child(even) td:nth-child(even), tr:nth-child(odd) td:nth-child(odd){
+    background-color: rgba(128, 128, 128, 0.151);
+}
+
+tr:nth-child(8) td:nth-child(1){
+    border-radius: 0px 0px 0px 15px;
+}
+
+tr:nth-child(8) td:nth-child(5){
+    border-radius: 0px 0px 15px 0px;
+}

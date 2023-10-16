@@ -1,0 +1,35 @@
+h1, h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.first-abz, .two-abz, .tree-abz, .four-abz, .five-abz{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span{
+    color: brown;
+}
+
+.bolder-text{
+    font-weight: bolder;
+    color: black;
+}
+
+.coursive-text{
+    font-style: italic;
+    color: black;
+}
+
+.tags{
+    background-color: rgb(238, 238, 238);
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+.code{
+    background-color: rgb(212, 212, 212);
+}

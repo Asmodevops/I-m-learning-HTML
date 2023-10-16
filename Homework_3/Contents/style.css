@@ -1,0 +1,25 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blue;
+}
+
+*::marker{
+    font-weight: bolder;
+    color: black;
+}
+
+h2{
+    color: black;
+}
+
+.header{
+    padding: 0px;
+}
+
+.chapter{
+    list-style-type: decimal;
+}
+
+.subtitle{
+    list-style-type: lower-latin;
+}

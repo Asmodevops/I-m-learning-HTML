@@ -1,0 +1,29 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+dt{
+    padding: 10px 60px;
+    background-color: rgba(11, 77, 77, 0.973);
+    color: white;
+}
+
+dd{
+    margin: 10px 25px 10px 25px;
+    color: white;
+}
+
+div{
+    background-color: rgba(5, 72, 83, 0.808);
+    display: flex;
+}
+
+sup{
+    color: orange;
+}
+
+span{
+    font-weight: bolder;
+    padding-right: 15px;
+}

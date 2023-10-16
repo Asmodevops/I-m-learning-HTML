@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+.item{
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.bottom_text{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: justify;
+}

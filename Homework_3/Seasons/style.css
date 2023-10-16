@@ -1,0 +1,38 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.seasons{
+    list-style-type: none;
+}
+
+.seasons:before{
+    content: "› ";
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.winter{
+    list-style-type: none;
+    background: url(winter_16.png) no-repeat 0 4px;
+    padding-left: 24px;
+}
+
+.spring{
+    list-style-type: none;
+    background: url(spring_16.png) no-repeat 0 4px;
+    padding-left: 24px;
+}
+
+.summer{
+    list-style-type: none;
+    background: url(summer_16.png) no-repeat 0 4px;
+    padding-left: 24px;
+}
+
+.autumn{
+    list-style-type: none;
+    background: url(autumn_16.png)  no-repeat 0 4px;
+    padding-left: 24px;
+}
